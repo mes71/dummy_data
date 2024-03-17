@@ -12,7 +12,7 @@ void main() {
 
     test('Test getWord method', () {
       // Arrange
-      int numberOfWords = 5;
+      int numberOfWords = 25;
       String expectedWords =
           List.from(wordEn).sublist(0, numberOfWords).join(" ");
       // Act
